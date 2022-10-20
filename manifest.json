@@ -1,0 +1,35 @@
+{
+  "author": "ninosanta",
+  "content_scripts": [
+    {
+      "css": [
+        "css/extension.css"
+      ],
+      "js": [
+        "js/extension.js"
+      ]
+    }
+  ],
+  "description": "WebThings Gateway Extension to get and/or exfiltrate the add-ons list ",
+  "gateway_specific_settings": {
+    "webthings": {
+      "exec": "{nodeLoader} {path}",
+      "primary_type": "extension",
+      "strict_max_version": "*",
+      "strict_min_version": "1.0.0"
+    }
+  },
+  "homepage_url": "https://github.com/ninosanta/exfiltration-extension",
+  "id": "exfiltration-extension",
+  "license": "MPL-2.0",
+  "manifest_version": 1,
+  "name": "Exfiltration Extension",
+  "short_name": "Exfiltration",
+  "version": "1.0.0",
+  "web_accessible_resources": [
+    "css/*.css",
+    "images/*.svg",
+    "js/*.js",
+    "views/*.html"
+  ]
+}
