@@ -7,3 +7,4 @@
 SHA256SUMS
 /.idea/
 package-lock.json
+.DS_store
