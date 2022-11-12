@@ -32,7 +32,6 @@
     "views/content.html"
   ],
   "dependencies": {
-    "dropbox": "^10.33.0",
-    "gateway-addon": "^2.0.0-alpha.1"
+    "dropbox": "^10.33.0"
   }
 }
